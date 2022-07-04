@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T09:13:12.577Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" version="20.0.4" etag="4DpipPw4i1RG9dXhQ-x0" type="github"><diagram id="1ZzUT_PSf48MifFqNMuQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-04T03:28:07.213Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="qr9Zcc-3AL9Qk43gC0cF" version="20.0.4" type="github">
+  <diagram id="1ZzUT_PSf48MifFqNMuQ" name="第 1 页">
+    <mxGraphModel dx="985" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-1" value="prototype 0x2222" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF351F;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-2" value="Person的构造函数 0x1111" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-3" value="construction 0x1111" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D03FF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-4" value="Person的原型对象 0x2222" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="GcmXQM1dAIOEALTjKUaq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250.9047619047618" as="sourcePoint" />
+            <mxPoint x="271.70000000000005" y="281.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.668;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="242" as="sourcePoint" />
+            <mxPoint x="340.85000000000014" y="225.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="GcmXQM1dAIOEALTjKUaq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="330" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-15" value="uname: zhangsan&lt;br&gt;__proto__: 0x2222" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFAC05;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-16" value="uname: zhangsan&lt;br&gt;__proto__: 0x2222" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFAC05;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-17" value="person1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-18" value="person2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GcmXQM1dAIOEALTjKUaq-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.004;exitY=0.398;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GcmXQM1dAIOEALTjKUaq-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
